@@ -66,7 +66,7 @@
     - created_ at 
     - traite_par (FK + employes)
     
-Status 
+- Status 
     - en_attente 
     - approuve
     - refusee
