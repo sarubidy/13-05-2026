@@ -1,10 +1,10 @@
 <?php
 
 use CodeIgniter\Router\RouteCollection;
-
+use App\Controllers\Login;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
-$routes->get('/produits', 'Produit::index');
-$routes->get('/produit/(:num)', 'Produit::show/$1');
+$routes->get('/', 'Login::index');
+
+
